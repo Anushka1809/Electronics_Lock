@@ -1,0 +1,88 @@
+$date
+    Jun  3, 2023  14:24:03
+$end
+$version
+    TOOL:	xmsim	20.09-s003
+$end
+$timescale
+    1 ns
+$end
+
+$scope module tb $end
+$var reg       1 !    clk $end
+$var reg       1 "    b0 $end
+$var reg       1 #    b1 $end
+$var reg       1 $    reset $end
+$var wire      1 %    unlock  $end
+$var integer  32 &    i $end
+$var reg       5 '    data [4:0] $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+0!
+x"
+x#
+1$
+x%
+bx &
+bx '
+$end
+#10
+1!
+0%
+#20
+0!
+#30
+1!
+#40
+0!
+#50
+0$
+b1011 '
+b0 &
+1!
+b1 &
+#60
+0!
+#70
+1!
+1"
+0#
+b10 &
+#80
+0!
+#90
+1!
+0"
+1#
+b11 &
+#100
+0!
+#110
+1!
+1"
+0#
+b100 &
+#120
+0!
+#130
+1!
+0"
+1#
+b101 &
+#140
+0!
+#150
+1!
+b110 &
+1%
+#160
+0!
+#170
+1!
+x"
+x#
+b111 &
+x%
+#180
